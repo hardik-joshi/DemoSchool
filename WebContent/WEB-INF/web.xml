@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns="http://java.sun.com/xml/ns/javaee" 
+    xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" 
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>Controller</servlet-name>
+    <servlet-class>com.servlet.Controller1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Controller</servlet-name>
+    <url-pattern>/Controller</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>BookController</servlet-name>
+    <servlet-class>com.servlet.BookController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookController</servlet-name>
+    <url-pattern>/BookController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>TaskController</servlet-name>
+    <servlet-class>com.servlet.TaskController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TaskController</servlet-name>
+    <url-pattern>/TaskController</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>StandardController</servlet-name>
+    <servlet-class>com.servlet.StandardController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StandardController</servlet-name>
+    <url-pattern>/StandardController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>BookSetController</servlet-name>
+    <servlet-class>com.servlet.BookSetController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookSetController</servlet-name>
+    <url-pattern>/BookSetController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FeesTypeController</servlet-name>
+    <servlet-class>com.servlet.FeesTypeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FeesTypeController</servlet-name>
+    <url-pattern>/FeesTypeController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>StudentController</servlet-name>
+    <servlet-class>com.servlet.StudentController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentController</servlet-name>
+    <url-pattern>/StudentController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PersonController</servlet-name>
+    <servlet-class>com.servlet.PersonController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PersonController</servlet-name>
+    <url-pattern>/PersonController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ChargeController</servlet-name>
+    <servlet-class>com.servlet.ChargeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChargeController</servlet-name>
+    <url-pattern>/ChargeController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PaymentController</servlet-name>
+    <servlet-class>com.servlet.PaymentController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PaymentController</servlet-name>
+    <url-pattern>/PaymentController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>InvoiceController</servlet-name>
+    <servlet-class>com.servlet.InvoiceController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InvoiceController</servlet-name>
+    <url-pattern>/InvoiceController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>StatementController</servlet-name>
+    <servlet-class>com.servlet.StatementController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StatementController</servlet-name>
+    <url-pattern>/StatementController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>LoginController</servlet-name>
+  <servlet-class>com.servlet.LoginController</servlet-class>
+  </servlet>
+  
+  
+    <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+    <servlet>
+    <servlet-name>OrganizationController</servlet-name>
+    <servlet-class>com.servlet.OrganizationController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrganizationController</servlet-name>
+    <url-pattern>/OrganizationController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdmissionController</servlet-name>
+    <servlet-class>com.servlet.AdmissionController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdmissionController</servlet-name>
+    <url-pattern>/AdmissionController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>CityController</servlet-name>
+    <servlet-class>com.servlet.CityController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CityController</servlet-name>
+    <url-pattern>/CityController</url-pattern>
+  </servlet-mapping>
+</web-app>
